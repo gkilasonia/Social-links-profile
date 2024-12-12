@@ -5,10 +5,105 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --medium-spacing: 12px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 15px;
+}
+
+.avatarImage {
+  width: 80px;
+  border-radius: 50%;
+  margin: 40px 0;
+}
+
+.textContainer {
+  text-align: center;
+}
+
+.avatarName {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.occupation {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+button {
+  width: 300px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+@media (max-width: 430px) {
+  main {
+    width: 325px;
+  }
+
+  .avatarImage {
+    margin: 20px 0;
+  }
+
+  .btnContainer {
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 280px;
+  }
+}
 
 .attribution {
+  position: absolute;
+  bottom: 0;
   font-size: 11px;
   text-align: center;
+  color: hsl(0, 0%, 100%);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
