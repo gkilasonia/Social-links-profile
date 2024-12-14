@@ -34,7 +34,7 @@ In essence, this website offers a concise and visually engaging introduction to 
 ### Links
 
 - Solution URL: (https://github.com/gkilasonia/Social-links-profile)
-- Live Site URL: (https://kilasa-blog-preview-card.netlify.app/)
+- Live Site URL: (https://kilasa-social-links-profile.netlify.app/)
 
 ## My process
 
